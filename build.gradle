@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+group = 'f1cont.niki119'
+version = '1.0'
+jar{
+    manifest {
+        attributes(
+                "Main-Class": "f1cont.niki119.арканоид.Арканоид"
+        )
+    }
+}
